@@ -1,0 +1,25 @@
+.tracker-sidebar-header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-right: 2px solid gray;
+}
+
+a{
+    color: white;
+    padding: 15px;
+}
+
+a.active-sidebar{
+    background-color: rgb(77,90,255);
+}
+
+.tracker-sidebar-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    height: 100vh;
+    background-color: 1C2237;
+}
